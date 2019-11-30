@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Reducing Plastics
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="../assets/css/material-kit.css?v=2.0.6" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*.cardhover:hover{
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14),
+   0 3px 1px -2px rgba(156, 39, 176, 0.2), 
+   0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}*/
+</style>
+</head>
+
+
+
+<body class="landing-page sidebar-collapse">
+  <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
+          Waste Warrior </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./bootstrap-wizard-master/index.html">
+              <i class="fa fa-pencil"></i> Sign Up
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./examples/login-page.html">
+              <i class="fa fa-pencil"></i> Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('https://www.thebermudian.com/wp-content/uploads/2019/01/Main-Images-16-840x600.png'); opacity: 1.2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="title">Help us eliminate plastics from their root</h1>
+          <h4>We provide solutions like looking for alternatives to plastic products, and daily goals to reduce plastic consumption</h4>
+          <br>
+          <a href="#eco" target="_blank" class="btn btn-success btn-raised btn-lg">
+            <i class="fa fa-play"></i> Find an Alternative
+          </a>
+          <a href="#myModal"  class="btn btn-danger btn-raised btn-lg" id="myBtn">
+            <i class="fa fa-play"></i> Daily Plastic Consumption Calculator
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="myModal" class="modal" style="z-index: 4">
+  <div class="modal-content" >
+    <span class="close">&times;</span>
+  <center><div class="omni-calculator" data-calculator="ecology/plastic-footprint" data-width="400" data-config='{}' data-currency="INR" data-show-row-controls="false" data-version="3" data-t="1570955338021">
+    <div class="omni-calculator-header">Plastic Footprint Calculator</div>
+      <div class="omni-calculator-footer">
+      <a href="https://www.omnicalculator.com/ecology/plastic-footprint" target="_blank"><img alt="Omni" class="omni-calculator-logo" src="https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg" /></a>
+    </div>
+  </div></center>
+  </div>
+</div>
+
+  <div class="main main-raised">
+    <div class="container">
+      <div class="section text-center" id="eco">
+        <h2 class="title">Eco-Friendly Products from Amazon</h2>
+        <div class="team">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain cardhover" style="margin-top:0;">
+                  <div class="col-md-6  mr-auto">
+                    <div class="card" style="width: 20rem;">
+                      <a href="https://www.amazon.in/Goodwill-Recycled-Newspaper-Eco-Friendly-Sketching/dp/B07TZ37YJM/ref=sr_1_24?crid=20L8U0O00CPU2&keywords=eco+friendly+products&qid=1570966106&sprefix=eco+fri%2Caps%2C293&sr=8-24" target="_blank">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/41xGtqsT6mL._AC_UL480_FMwebp_QL65_.jpg" alt="Card image cap" width="20em" style="height:12.8em;">
+                      <div class="card-body" style="color: black;">
+                      <p class="card-text">Goodwill Tech™ Recycled Newspaper Pencils Eco-Friendly for Kids School | Writing, Sketching, Drawing Pack of 20</p>
+                      <p><span style="color: #B12704;font-size: 20px;">₹199</span><span style="text-decoration: line-through;color: #555"> ₹299</span>. Save ₹100 (33%)</p>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain cardhover" style="margin-top:0;">
+                  <div class="col-md-6  mr-auto">
+                    <div class="card" style="width: 20rem;">
+                      <a href="https://www.amazon.in/Dr-CHARCOAL-Dehumidifier-Classic-Neel/dp/B072M73T9X/ref=sr_1_20?crid=20L8U0O00CPU2&keywords=eco+friendly+products&qid=1570966106&sprefix=eco+fri%2Caps%2C293&sr=8-20" target="_blank">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/714KHYmayQL._AC_UL480_FMwebp_QL65_.jpg" alt="Card image cap" width="20em" style="height:12.8em;">
+                      <div class="card-body" style="color: black;">
+                      <p class="card-text">Dr. CHARCOAL Non Electric Air Purifier Deodorizer and Dehumidifier for Cars, Bathrooms and Kitchen. 200 Grams. </p>
+                      <p><span style="color: #B12704;font-size: 20px;">₹509</span><span style="text-decoration: line-through;color: #555"> ₹599</span>. Save ₹90 (15%)</p>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain cardhover" style="margin-top:0;">
+                  <div class="col-md-6  mr-auto">
+                    <div class="card" style="width: 20rem;">
+                      <a href="https://www.amazon.in/bioQ-Friendly-Plantable-Stationery-Notepad/dp/B07S4L7B4N/ref=sr_1_33?crid=20L8U0O00CPU2&keywords=eco+friendly+products&qid=1570966106&sprefix=eco+fri%2Caps%2C293&sr=8-33" target="_blank">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/81BH-z0tbOL._AC_UL480_FMwebp_QL65_.jpg" alt="Card image cap" width="20em" style="height:12.8em;">
+                      <div class="card-body" style="color:black;">
+                      <p class="card-text">bioQ Eco Friendly Plantable Stationery Gift Jute Kit (1 Notepad + 2 Paper pens + 2 Paper Pencils in a Jute Bag) </p>
+                      <p><span style="color: #B12704;font-size: 20px;">₹349</span><span style="text-decoration: line-through;color: #555"> ₹450</span>.Save ₹101 (22%)</p>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain cardhover" style="margin-top:0;">
+                  <div class="col-md-6  mr-auto">
+                    <div class="card" style="width: 20rem;">
+                      <a href="https://www.amazon.in/Arka-Home-Products-Vegetable-Eco-Friendly/dp/B07MZ84RK3/ref=sr_1_13?crid=20L8U0O00CPU2&keywords=eco+friendly+products&qid=1570966106&sprefix=eco+fri%2Caps%2C293&sr=8-13" target="_blank">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/51bxLgBaGxL._AC_UL480_FMwebp_QL65_.jpg" alt="Card image cap" width="20em" style="height:12.8em;">
+                      <div class="card-body" style="color:black;">
+                      <p class="card-text">Arka Home Products 100% Cotton Vegetable Storage Fridge Bags (Set of 10) Eco-Friendly, Non-Toxic, Washable, Reusable</p>
+                      <p><span style="color: #B12704;font-size: 20px;">₹685</span><span style="text-decoration: line-through;color: #555"> ₹1400</span>. Save ₹715 (51%)</p>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain cardhover" style="margin-top:0;">
+                  <div class="col-md-6  mr-auto">
+                    <div class="card" style="width: 20rem;">
+                      <a href="https://www.amazon.in/mitti-tak-Friendly-Refillable-Included/dp/B07TWKTQGW/ref=sr_1_2?crid=20L8U0O00CPU2&keywords=eco+friendly+products&qid=1570966106&sprefix=eco+fri%2Caps%2C293&sr=8-2" target="_blank">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/91l80LcFjyL._AC_UL480_FMwebp_QL65_.jpg" alt="Card image cap" width="20em" style="height:12.8em;">
+                      <div class="card-body" style="color:black;">
+                      <p class="card-text">mitti se mitti tak... Set of 3 Eco Friendly Refillable Bamboo Pens in a Fabric Pouch (3 Refills Included)</p>
+                      <p><span style="color: #B12704;font-size: 20px;">₹479</span><span style="text-decoration: line-through;color: #555"> 699</span>. Save ₹220 (31%)</p>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain cardhover" style="margin-top:0;">
+                  <div class="col-md-6  mr-auto">
+                    <div class="card" style="width: 20rem;">
+                      <a href="https://www.amazon.in/ECOTARA-Multipurpose-Friendly-Everyday-Envelopes/dp/B07D1KZWFV/ref=sr_1_7?crid=20L8U0O00CPU2&keywords=eco+friendly+products&qid=1570966106&sprefix=eco+fri%2Caps%2C293&sr=8-7" target="_blank">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/91dFMn+F1oL._AC_UL480_FMwebp_QL65_.jpg" alt="Card image cap" width="20em" style="height:12.8em;">
+                      <div class="card-body" style="color: black;">
+                      <p class="card-text">ECOTARA Go Natural Multipurpose Eco Friendly Everyday Use Button Closure Jute Envelopes (Beige, 10 X 12.5 X 1-inch) -Set of 3</p>
+                      <p><span style="color: #B12704;font-size: 20px;">₹399</span><span style="text-decoration: line-through;color: #555"> 549</span>Save ₹150 (27%)</p>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+      </div>
+
+      <div class="section text-center">
+        <h2 class="title">Leaderboard: Top Innovators</h2>
+        <div class="team">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid" width="200px" height="200px">
+                  </div>
+                  <br>
+                  <h4 class="card-title">Nishay Madhani
+                    <br>
+                    <small class="card-description text-muted">Student</small>
+                  </h4>
+                  <br>
+                  <div class="card-body">
+                    <p class="card-description">An engineering student with love for the environment and sustenability</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/faces/christian.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">Harshil Jhaveri
+                    <br>
+                    <small class="card-description text-muted">Engineer</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Student at DJ Sanghvi College who loves trees,greenery and other forms of nature that are destroyed by plastic</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-player">
+                <div class="card card-plain">
+                  <div class="col-md-6 ml-auto mr-auto">
+                    <img src="../assets/img/faces/kendall.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                  </div>
+                  <h4 class="card-title">Shreya Desai
+                    <br>
+                    <small class="card-description text-muted">Law Student</small>
+                  </h4>
+                  <div class="card-body">
+                    <p class="card-description">Law Student at GLC Mumbai with the passion for saving the world from the ill practices of hummans.</p>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer footer-default">
+    <div class="container">
+    </div>
+  </footer>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="../assets/js/plugins/moment.min.js"></script>
+  <!--  Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="../assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
+  
+  <script async src="https://cdn.omnicalculator.com/sdk.js"></script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+
+</html>
